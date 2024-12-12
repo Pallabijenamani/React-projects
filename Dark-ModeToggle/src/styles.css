@@ -1,0 +1,104 @@
+/* General Styling */
+body.light {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  body.dark {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Navbar Styling */
+  .navbar {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar.light {
+    background-color: #f0f0f0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar.dark {
+    background-color: #333333;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Button Styling */
+  button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+    opacity: 0.9;
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  button:focus {
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+  }
+  
+  button:active {
+    background-color: #004085;
+    transform: scale(1);
+  }
+  
+  /* Home Page Styling */
+  .home {
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .home.light {
+    background: linear-gradient(135deg, #f9f9f9, #ffffff);
+    border: 1px solid #e0e0e0;
+  }
+  
+  .home.dark {
+    background: linear-gradient(135deg, #444444, #333333);
+    border: 1px solid #555555;
+  }
+  
+  /* Container for Button */
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  
+  
